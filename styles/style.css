@@ -1,0 +1,23 @@
+/* This the nav style */
+nav{
+    display: grid;
+    background-color: aliceblue;
+    height: 3rem;
+    box-shadow: var(--dark-shadow);
+    align-items: center;
+}
+.navbar-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display:flex;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
